@@ -7,37 +7,37 @@
     margin:0;
     box-sizing: border-box;
 }
-
-header#cabecalho div.rede-social{
-    
-    right: 20px;
-    
-    position: absolute  ;
-    margin: auto;
-    text-align: center;
-
-}
-header#cabecalho div.rede-social img{
-    height: 30px;
-    margin: auto 30px auto 0;
-    display: inline-flex;
-}
+/*=========================top rede sociais================*/
 header#cabecalho hgroup{
-    padding: 5px;
-    display: inline-flex;
+    height: 50px;
+   
     background-color: #FFCB12;
     width: 100%;
+    padding:8px;
+    display: inline-flex;
+    
+}
+header#cabecalho hgroup p{
+    
+    font-family: 'Outfit', sans-serif;
+    font-size: clamp(18px, 1em, 3em);
+    margin: auto 0 ;
+    
+   /* border: #333 1px solid;*/
+        
 }
 
 header#cabecalho hgroup figure img{
     height: 30px;
     margin: auto 10px auto 5px;
+    min-height: 20px;
 }
-header#cabecalho hgroup p{
-    margin: auto 0;
-    font-family: 'Outfit', sans-serif;
-    font-size: larger;
+header#cabecalho div.rede-social{
+    position: absolute;
+    right: 2px;
 }
+
+/*=========================prestador de serviços================*/
 div.box-cabecalho{
     width: 100%;
     height: 100px;
@@ -50,7 +50,7 @@ div.box-cabecalho h1{
     margin: auto auto;
     color:#FFCB12;
     font-family: 'Outfit',  sans-serif;
-    font-size: 4ex;
+    font-size: clamp(8px, 1.8em, 4em);
 }
 div.box-cabecalho img{
     height: 80px;
@@ -101,16 +101,15 @@ article.foto-moto{
     font-family: 'Outfit',sans-serif;
     font-size: 12px;
 }
+
+/*============section box-dois============*/
 #box-dois  {
-    border: 1px #333 dashed;
+    
      width: 100%;
      height: 100%;
      display: inline-flex;
      flex-wrap: wrap;
      text-align: center;
-     
-     
-     
  }
 
 section#box-dois .h2{
@@ -147,10 +146,84 @@ section#box-dois h2{
     text-align: center;
     padding: 35px 0 35px  0  ;
 }
-#box-dois  img{
+#box-dois .qrcode img{
     margin: 3em auto;
     
     width: 100%;
     min-width: 100px;
     max-width: 850px;
+}
+#box-dois #telZap{
+    width: 100%;
+    background-color: #de2f0b;
+    text-align: center;
+    color: #fff;   
+    box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.322); 
+}
+#box-dois #telZap  img{
+  
+  height: 30px; 
+  margin:10px 5px 10px 0; 
+}
+#box-dois #telZap figure{
+    display: inline-flex;
+}
+
+#box-dois #telZap p{
+    margin: auto 0;
+    font-size: clamp(10px, 15px, 18px);
+    font-family: 'Outfit',sans-serif;
+}
+/*============section box-tres============*/
+#box-tres  {
+     width: 100%;
+     height: 100%;
+     text-align: center;
+     background-image: url('./imagem/ondas.png') , radial-gradient(#6F4111, #450B0A);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     background-position: 50%;
+    
+ }
+#box-tres  .h3{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+       
+}
+#box-tres  h3{
+    color: #fff;
+    font-size: clamp(24px, 3.2vw , 1.8em);
+    font-family: 'Outfit',sans-serif;
+}
+#box-tres .ligou img{
+    margin: 3em auto;
+    
+    width: 100%;
+    min-width: 100px;
+    max-width: 550px;
+}
+#box-tres #telRed{
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    color: #d2d3d5;
+    
+}
+#box-tres #telRed  img{
+  
+  height: 30px; 
+  margin:10px 5px 10px 0; 
+}
+#box-tres #telRed figure{
+    display: inline-flex;
+    margin:0 5px;
+    cursor: pointer;
+}
+
+#box-tres #telRed p{
+    margin: auto 0;
+    font-size: clamp(12px, 3.2vw , 1.8em);
+    font-family: 'Outfit',sans-serif;
 }
