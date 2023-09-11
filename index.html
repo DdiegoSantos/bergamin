@@ -9,13 +9,16 @@
 <body onload="carregar()">
     <section>
         <header  id="cabecalho">
-            <div>
+        
                 <hgroup>
-                    <figure>
-                        <img src="./imagem/logo-zap-preta.png" alt="">
-                        <p><em>27 99996-3567</em> </p>
+                    <article>
 
-                    </figure>
+                        <figure>
+                            <img src="./imagem/logo-zap-preta.png" alt="">
+                            
+                        </figure>
+                    </article>
+                    <p><em>27 99996-3567</em> </p>
 
                     <div class="rede-social">
                         <figure>
@@ -26,7 +29,7 @@
                     </div>
 
                 </hgroup>
-            </div>
+            
             <div class="box-cabecalho">
                 <img src="./imagem/bergamin.png" alt="">
                 <h1><em>Prestador de Serviços</em></h1>
@@ -41,9 +44,11 @@
             <h2>ENTREGA DE MALOTES - PEÇAS - ROUPAS - DOCUMENTOS</h2>
         </article>
         <hgroup class="zap-verde">
-            <p>faça seu orçamento</p>
-            <img  src="./imagem/logo-zap-verde.png" alt="orçamento">
             
+            <p>faça seu orçamento</p>
+            <a href="https://api.whatsapp.com/send?phone=5527999963567&text=Ol%C3%A1!" target="_blank">
+            <img  src="./imagem/logo-zap-verde.png" alt="orçamento">
+        </a>
         </hgroup>
     </section>
     <section id="box-dois">
@@ -54,11 +59,48 @@
             <article class="h3">
                 <h3>Escaneie o <br> Qr-code e <br> faça um orçamento!</h3>
             </article>
-            <figure>
-                <img src="./imagem/entregas.png" alt="">
+            <figure class="qrcode">
+                <img src="./imagem/entregas.png" alt="qr-code">
             </figure>
+            
+            <article id="telZap">
+                <figure>
+                    <img src="./imagem/3.png" alt="logozap">
+                    
+                    <p><em>GARANTIA E QUALIDADE DOS SERVIÇOS APROVADOS</em> </p>
+                </figure>
+            </article>
         
     </section>
+
+    <section id="box-tres">
+        
+        <figure class="ligou">
+            <img src="./imagem/ligou.png" alt="ligou">
+        </figure>
+        <article class="h3">
+            <h3>PREÇO <br> MÍNIMO <br> R$8,00</h3>
+        </article>
+        
+        <article id="telRed">
+            <figure>
+                <img id="face" src="./imagem/face-cinza.png" alt="facebook" onmouseenter="trocaFace()" onmouseout="trocaFacecinza()">                
+                <p id="para2">Facebook </p>
+                
+            </figure>
+            <figure >
+                <img id="insta" src="./imagem/insta-cinza.png" alt="instagram" onmouseenter="trocaInsta()" onmouseout="trocaInstacinza()">                
+                <p id="para1">Instagram </p>
+                
+            </figure>
+            <figure >
+                <img  src="./imagem/youtube-cinza.png" alt="youtube" id="tube" onmouseenter="trocaYoutube()" onmouseout="trocaYoutubecinza()">                
+                <p id="redP1">Youtube</p>
+                
+            </figure>
+        </article>
+    
+</section>
     
 </body>
 <script src="moto.js"></script>
