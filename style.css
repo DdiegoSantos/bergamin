@@ -114,6 +114,9 @@ article.foto-moto{
     border-radius: 6px;
     
 }
+.qr-tel a{
+    text-decoration: none;
+}
 .qr-tel:hover img{
     width: 320px;
     height: auto;
