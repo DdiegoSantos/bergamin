@@ -111,8 +111,10 @@ article.foto-moto{
     height: auto;
     background-color: #ffffff73;
     padding: 3px;
-    border-radius: 6px;
-    
+    border-radius: 6px;    
+}
+.qr-tel:hover{
+    background-color: #fff;
 }
 .qr-tel:hover img{
     width: 320px;
