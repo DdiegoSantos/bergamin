@@ -101,6 +101,41 @@ article.foto-moto{
     font-family: 'Outfit',sans-serif;
     font-size: 12px;
 }
+.qr-tel{
+    height: 20px;
+    width: auto;
+    position: fixed;
+    right: 30px;
+    bottom: 140px;
+    text-align: center;    
+    height: auto;
+    background-color: #ffffff73;
+    padding: 3px;
+    border-radius: 6px;
+    
+}
+.qr-tel:hover img{
+    width: 320px;
+    height: auto;
+    transition:all 2s;
+    
+}
+.qr-tel:hover p {
+    display: block;
+    font-size: 24px;
+}
+.qr-tel img{
+    height: 40px;
+    width: auto;
+    margin: auto 0 auto 0;
+    
+}
+.qr-tel p{
+    margin: auto 0 auto 0;
+    display:none;
+    font-family: 'Outfit',sans-serif;
+    font-size: 12px;
+}
 
 /*============section box-dois============*/
 #box-dois  {
