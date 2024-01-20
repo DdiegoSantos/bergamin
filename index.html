@@ -152,9 +152,38 @@
         </div>
 
     </section>
+    <section id="box-post">
+        <input type="text" placeholder="nome Completo" id="nomeCompleto">
+        <input type="text" placeholder="deixe aqui sua mensagem" id="texto">
+        <button onclick="getPost()">enviar</button>
+
+    </section>
+    <div id="postagem">
+
+
+    </div>
 
 
 </body>
 <script src="moto.js"></script>
+    <script>
+    function getPost() {
+        caixaPost = document.getElementById('postagem');
+        post = document.getElementById('texto');
+        NomeCompleto = document.getElementById('nomeCompleto');
+
+        h3 = document.createElement('h3');
+        h3.append(NomeCompleto.value);
+
+        p = document.createElement('p');
+       
+        p.append(post.value);
+        
+        caixaPost.appendChild(h3);
+        caixaPost.appendChild(p);
+
+       
+    }
+</script>
 
 </html>
